@@ -1,0 +1,322 @@
+(base) C:\Users\gkiran>python3 -v
+'python3' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\gkiran>python -v
+
+(base) C:\Users\gkiran>python -V
+Python 3.7.0
+
+(base) C:\Users\gkiran>mkdir dev
+
+(base) C:\Users\gkiran>rmdir dev
+
+(base) C:\Users\gkiran>cd Django
+
+(base) C:\Users\gkiran\Django>mkdir dev
+
+(base) C:\Users\gkiran\Django>mkdir trydjango
+
+(base) C:\Users\gkiran\Django>cd trydjango
+
+(base) C:\Users\gkiran\Django\trydjango>virtualenv -p python .
+
+(base) C:\Users\gkiran\Django\trydjango>python --version
+Python 3.7.0
+
+(base) C:\Users\gkiran\Django\trydjango>pip install virtualenvwrapper-win
+Collecting virtualenvwrapper-win
+  Downloading https://files.pythonhosted.org/packages/f5/23/4cba98733b9122219ce67177d745e4984b524b867cf3728eaa807ea21919/virtualenvwrapper-win-1.2.5.tar.gz
+Collecting virtualenv (from virtualenvwrapper-win)
+  Downloading https://files.pythonhosted.org/packages/33/5d/314c760d4204f64e4a968275182b7751bd5c3249094757b39ba987dcfb5a/virtualenv-16.4.3-py2.py3-none-any.whl (2.0MB)
+    100% |████████████████████████████████| 2.0MB 171kB/s
+
+
+(base) C:\Users\gkiran\Django\trydjango>virtualenv -p python .
+Running virtualenv with interpreter C:\Users\gkiran\Anaconda3\python.exe
+Using base prefix 'C:\\Users\\gkiran\\Anaconda3'
+
+
+(base) C:\Users\gkiran\Django\trydjango>.\Scripts\activate
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>pip install django==2.0.7
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>pip freeze
+Django==2.0.7
+pytz==2018.9
+
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>django-admin
+
+Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>mkdir src
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango>cd src
+
+Directory of C:\Users\gkiran\Django\trydjango\src
+
+03/07/2019  01:22 AM    <DIR>          .
+03/07/2019  01:22 AM    <DIR>          ..
+
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>django-admin startproject trydjango .
+
+
+Directory of C:\Users\gkiran\Django\trydjango\src
+
+03/07/2019  01:23 AM    <DIR>          .
+03/07/2019  01:23 AM    <DIR>          ..
+03/07/2019  01:23 AM               556 manage.py
+03/07/2019  01:23 AM    <DIR>          trydjango
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>python manage.py  runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 07, 2019 - 01:23:55
+Django version 2.0.7, using settings 'trydjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[07/Mar/2019 01:24:15] "GET / HTTP/1.1" 200 16348
+[07/Mar/2019 01:24:15] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[07/Mar/2019 01:24:15] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[07/Mar/2019 01:24:15] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[07/Mar/2019 01:24:15] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[07/Mar/2019 01:24:15] "GET /favicon.ico HTTP/1.1" 404 1975
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>python manage.py  runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 07, 2019 - 01:40:01
+Django version 2.0.7, using settings 'trydjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\gkiran\Django\trydjango\src
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 07, 2019 - 01:40:12
+Django version 2.0.7, using settings 'trydjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>python manage.py  runserver
+C:\Users\gkiran\Django\trydjango\src
+C:\Users\gkiran\Django\trydjango\src
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 07, 2019 - 01:40:19
+Django version 2.0.7, using settings 'trydjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>python manage.py  migrate
+C:\Users\gkiran\Django\trydjango\src
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying sessions.0001_initial... OK
+
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>python manage.py createsuperuser
+C:\Users\gkiran\Django\trydjango\src
+Username (leave blank to use 'gkiran'): gude.1
+Email address:
+Password:
+Password (again):
+Superuser created successfully.
+
+(trydjango) (base) C:\Users\gkiran\Django\trydjango\src>python manage.py  runserver
+C:\Users\gkiran\Django\trydjango\src
+C:\Users\gkiran\Django\trydjango\src
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 07, 2019 - 11:16:47
+Django version 2.0.7, using settings 'trydjango.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[07/Mar/2019 11:16:50] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1855
+[07/Mar/2019 11:16:57] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[07/Mar/2019 11:16:57] "GET /admin/ HTTP/1.1" 200 2985
+[07/Mar/2019 11:16:57] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[07/Mar/2019 11:16:57] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[07/Mar/2019 11:16:57] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
