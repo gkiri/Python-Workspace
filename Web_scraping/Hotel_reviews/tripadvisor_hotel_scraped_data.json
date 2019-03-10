@@ -1,0 +1,27 @@
+{
+    "address": {
+        "street_address": "Mohrenstrasse 30",
+        "region": "",
+        "locality": "Berlin",
+        "country": "Germany",
+        "zipcode": "10117"
+    },
+    "ratings": {
+        "Excellent": 2810,
+        "Good": 1838,
+        "Average": 478,
+        "Poor": 179,
+        "Terrible": 81
+    },
+    "amenities": {
+        "Hotel Amenities": ""
+    },
+    "official_description": null,
+    "additional_info": {},
+    "rating": 4.5,
+    "review_count": 5386,
+    "name": "Hilton Berlin",
+    "rank": "#78 of 636 Hotels in Berlin",
+    "highlights": "",
+    "hotel_url": "https://www.tripadvisor.com/Hotel_Review-g187323-d191438-Reviews-Hilton_Berlin-Berlin.html"
+}
