@@ -31,4 +31,8 @@ say_whee()
     
  So, @my_decorator is just an easier way of saying say_whee = my_decorator(say_whee). It’s how you apply a decorator to a function.
 
+Note:
+    1.Condition based calling
+    2.In above example we buzz whee only during particular timings else say_whee points to nothing
+
 Source : https://realpython.com/primer-on-python-decorators/
