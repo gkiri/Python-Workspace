@@ -13,6 +13,7 @@ def say_whee():
 
 say_whee = not_during_the_night(say_whee)
 
+say_whee()
 ############################################################
 def my_decorator(func):
     def wrapper():
@@ -25,6 +26,7 @@ def my_decorator(func):
 def say_whee():
     print("Whee!")
     
+say_whee()   
     
     
  So, @my_decorator is just an easier way of saying say_whee = my_decorator(say_whee). It’s how you apply a decorator to a function.
