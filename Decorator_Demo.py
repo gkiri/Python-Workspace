@@ -13,7 +13,7 @@ def say_whee():
 
 say_whee = not_during_the_night(say_whee)
 
-say_whee()
+say_whee() #Ifyou call say_whee() after bed time nothing will happen
 ############################################################
 def my_decorator(func):
     def wrapper():
