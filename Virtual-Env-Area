@@ -1,5 +1,13 @@
 1.https://www.youtube.com/watch?v=N5vscPTWKOk
 
+1.Creta and go to Virtual_Env project folder
+2.virtualenv Project1
+3.source Project1/bin/activate
+4.Now u r in Virtual env
+5. check pip list u shud have limited libraries installed
+5.install whatever u want now 
+6.start running code
+
 
 
 
