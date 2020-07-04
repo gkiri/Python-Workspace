@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=rq8cL2XMM5M
+
+
+Note:
+1.self:
+In general methods in class are caled with instances.when u call a method by default "self" is passed which represents instance.
+
+
+2.class methods(instead of self we use cls here)
+
+when u want to update class variables that are common between all instances of class.
+eg:No:of employees in company
+
+3.static methods
+
+Here no keyowrds like self or cls.
+These r like normal functions.Used as helper functions for class variables
