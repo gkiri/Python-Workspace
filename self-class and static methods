@@ -15,3 +15,13 @@ eg:No:of employees in company
 
 Here no keyowrds like self or cls.
 These r like normal functions.Used as helper functions for class variables
+
+
+
+__init__
+  
+    1. similar to constructor
+    
+super()
+    
+    2.Used to initialise base class members in derived class
