@@ -1,5 +1,5 @@
 
-#
+#  
 1.https://www.youtube.com/watch?v=N5vscPTWKOk
 
 1.Creta and go to Virtual_Env project folder
@@ -14,7 +14,7 @@
 
 
 
-#
+#  
 
 If u want to change PYTHONPATH in virtualenv from host environment
 1.go to virtual env with source  bin/activate
@@ -22,7 +22,7 @@ If u want to change PYTHONPATH in virtualenv from host environment
 3.Now in virtualenv PYTHONPATH varibale points NULL but host has still same path undisturbed
 4.Now u can change virtualenv PYTHONPATH to whatever u want
 
-#
+#  
 https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
 
 
