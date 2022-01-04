@@ -25,11 +25,22 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 ## Topic-2 : List Comprehensions
 
 ### Doing all processing inside the brackets 
- 
+* Basic for loop
+* ```  
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+  newlist = []
+
+  for x in fruits:
+    if "a" in x:
+      newlist.append(x)
+
+  print(newlist) # ['apple', 'banana', 'mango']
+  
 * ```  
   >>> l = [2, 4, 6, 8, 10, 12]
   >>> [int(i / 2) for i in l]
   [1, 2, 3, 4, 5, 6]
 * process logic inside block
+
 
 
