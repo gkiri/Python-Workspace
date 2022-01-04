@@ -113,5 +113,5 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 
   dollar_to_pound = 0.76
   new_price = {item: value*dollar_to_pound for (item, value) in old_price.items()}
-  print(new_price)
+  print(new_price) #{'milk': 0.7752, 'coffee': 1.9, 'bread': 1.9}
 
