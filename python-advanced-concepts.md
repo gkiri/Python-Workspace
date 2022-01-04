@@ -35,6 +35,18 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
       newlist.append(x)
 
   print(newlist) # ['apple', 'banana', 'mango']
+
+* now lets use list comprehension
+
+* ```
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+  newlist = [x for x in fruits if "a" in x]
+  
+  print(newlist) #['apple', 'banana', 'mango']
+* syntax 
+* ```
+  newlist = [expression for item in iterable if condition == True]
   
 * ```  
   >>> l = [2, 4, 6, 8, 10, 12]
