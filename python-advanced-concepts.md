@@ -11,5 +11,9 @@ reference : https://github.com/makinacorpus/easydict
 Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorch/blob/e2bcb2ebb72c29ea424b8b251d733a8cddef2214/utils/config.py#L16
 
 
-## Topic-2
+## Topic-2 : List Comprehensions
+
+### Doing all processing inside the brackets 
+* ` int x
+
 
