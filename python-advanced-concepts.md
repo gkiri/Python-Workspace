@@ -75,3 +75,13 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
   newlist = [x for x in fruits]
 
   print(newlist) #op =['apple', 'banana', 'cherry', 'kiwi', 'mango']
+  
+#### Eg:5
+
+* ```  
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+  newlist = [x if x != "banana" else "orange" for x in fruits]
+
+  print(newlist) #op =['apple', 'orange', 'cherry', 'kiwi', 'mango'] 
+                      #here only when its banana if is tru so x is replaced with orange
