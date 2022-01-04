@@ -17,7 +17,10 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 
 ### Doing all processing inside the brackets 
  
-*  ```  
-   int main() 
+* ```  
+  >>> l = [2, 4, 6, 8, 10, 12]
+  >>> [int(i / 2) for i in l]
+  [1, 2, 3, 4, 5, 6]
+* process logic inside block
 
 
