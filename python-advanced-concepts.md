@@ -85,3 +85,33 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 
   print(newlist) #op =['apple', 'orange', 'cherry', 'kiwi', 'mango'] 
                       #here only when its banana if is tru so x is replaced with orange
+                      
+                      
+## Topic-3 : Dict Comprehensions
+### Normal dictionary usage
+* ```  
+  square_dict = dict()
+  for num in range(1, 11):
+      square_dict[num] = num*num
+  print(square_dict) #{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}
+
+### dictionary comprehension example
+* ```  
+  square_dict = {num: num*num for num in range(1, 11)}
+  
+  print(square_dict) #{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}
+
+
+### Syntax
+* ```  
+  dictionary = {key: value for vars in iterable}
+  
+### Eg:1 item price in dollars
+* ```    
+  
+  old_price = {'milk': 1.02, 'coffee': 2.5, 'bread': 2.5}
+
+  dollar_to_pound = 0.76
+  new_price = {item: value*dollar_to_pound for (item, value) in old_price.items()}
+  print(new_price)
+
