@@ -74,4 +74,4 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 
   newlist = [x for x in fruits]
 
-  print(newlist)
+  print(newlist) #op =['apple', 'banana', 'cherry', 'kiwi', 'mango']
