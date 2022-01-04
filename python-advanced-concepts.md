@@ -6,7 +6,16 @@ reference : https://github.com/makinacorpus/easydict
 * when using dictionary it becomes difficult to use keys and values with brackets
 * To make it simplified , lets access each key or value with attributes (like a variable)
 * ```  
-  d = edict({'foo':3, 'bar':{'x':1, 'y':2}})
+  >>> from easydict import EasyDict as edict
+  >>> d = edict({'foo':3, 'bar':{'x':1, 'y':2}})
+  >>> d.foo
+  3
+  >>> d.bar.x
+  1
+
+  >>> d = edict(foo=3)
+  >>> d.foo
+  3
 
 * Now access easily like -> d.foo  or d.bar.x
 
