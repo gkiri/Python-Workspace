@@ -59,4 +59,10 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 * process logic inside block
 
 #### Eg:3
+* ```  
 
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+  newlist = [x for x in fruits if x != "apple"]
+
+  print(newlist) #o/p =['banana', 'cherry', 'kiwi', 'mango']
