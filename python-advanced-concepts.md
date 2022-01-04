@@ -14,6 +14,7 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 ## Topic-2 : List Comprehensions
 
 ### Doing all processing inside the brackets 
-* ` int x
+```  
+* int x
 
 
