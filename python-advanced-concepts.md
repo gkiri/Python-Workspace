@@ -5,7 +5,8 @@ reference : https://github.com/makinacorpus/easydict
 
 * when using dictionary it becomes difficult to use keys and values with brackets
 * To make it simplified , lets access each key or value with attributes (like a variable)
-* ```  d = edict({'foo':3, 'bar':{'x':1, 'y':2}})
+* ```  
+* d = edict({'foo':3, 'bar':{'x':1, 'y':2}})
 
 * Now access easily like -> d.foo  or d.bar.x
 
@@ -16,7 +17,8 @@ Real worl usage : https://github.com/SimonVandenhende/Multi-Task-Learning-PyTorc
 
 ### Doing all processing inside the brackets 
 
-* ```  int x
+* ```
+* int x
  
 * 
 
